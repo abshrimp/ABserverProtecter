@@ -1,0 +1,12 @@
+name: ABserverProtecter
+version: '1.0.0'
+main: net.ebii.ABserverProtecter.ABserverProtecter
+api-version: '1.21'
+
+commands:
+  addMember:
+    description: プレイヤーをターゲットリストに追加するコマンド
+  deleteMember:
+    description: プレイヤーをターゲットリストから削除するコマンド
+  setAllowArea:
+    description: チェスト開閉可能エリアを設定するコマンド
